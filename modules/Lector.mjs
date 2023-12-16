@@ -15,9 +15,7 @@ class Lector extends User {
 			courses += `<div class="user__courses--course lector">
 										<p>Title: <b>${course.title}</b></p>
 										<p>Lector's score: <span class="${score}">${score}</span></p>
-										<p>
-											Average student's score: <span class="${studentsScore}">${studentsScore}</span>
-										</p>
+										<p>Average student's score: <span class="${studentsScore}">${studentsScore}</span></p>
 									</div>
 								`;
 		});
